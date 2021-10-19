@@ -1,16 +1,13 @@
 $bg-color: #222222;
-@mixin position() {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-} 
+
+
 
 .header {
     background-color: $bg-color;
     padding: 19px 0;
     &--wrap {
         @include position;
+        @include wrap;
     }
     &__left {
         & a {

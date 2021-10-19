@@ -1,0 +1,21 @@
+$bg-color: #F1E4E6;
+$bg-img: url(../img/man_bg.png);
+
+.intro {
+    background-color: $bg-color;
+    height: 764px;
+    &--wrap {
+        @include wrap;
+    }
+    &__bg {
+        @include position;
+        justify-content: flex-end;
+        height: 100%;
+        background-image: $bg-img;
+        background-repeat: no-repeat;
+        background-position: -212px bottom;
+    }
+   // &__text {
+
+  //  }
+}
