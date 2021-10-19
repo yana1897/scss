@@ -11,7 +11,7 @@ $bg-img: url(../img/man_bg.png);
         @include position;
         justify-content: flex-end;
         height: 100%;
-        background-image: $bg-img;
+        background-image: url(../img/man_bg.png);
         background-repeat: no-repeat;
         background-position: -212px bottom;
     }

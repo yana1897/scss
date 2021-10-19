@@ -1,5 +1,12 @@
 $bg-color: #222222;
-
+@mixin wrap() {
+    flex-wrap: wrap;
+}
+@mixin position() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
 
 
 .header {
