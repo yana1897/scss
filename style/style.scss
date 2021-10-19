@@ -1,11 +1,4 @@
-@import url(_header.scss);
-
-@mixin position {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
+@import '_header.scss';
 
 * {
     margin: 0;

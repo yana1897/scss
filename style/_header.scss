@@ -1,9 +1,27 @@
 $bg-color: #222222;
-
+@mixin position() {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+} 
 
 .header {
     background-color: $bg-color;
-}
-.header--wrap {
-    @include position
+    padding: 19px 0;
+    &--wrap {
+        @include position;
+    }
+    &__left {
+        & a {
+            margin-right: 41px;
+        }
+    }
+    &__right {
+        & img {
+            &:not(:last-child) {
+                margin-right: 33px;
+            }
+        }
+    }
 }
