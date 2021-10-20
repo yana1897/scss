@@ -1,13 +1,12 @@
 $bg-color: #F1E4E6;
 $bg-img: url(../img/man_bg.png);
 
+
 .intro {
     background-color: $bg-color;
     height: 764px;
-    &--wrap {
-        @include wrap;
-    }
     &__bg {
+        @include wrap;
         @include position;
         justify-content: flex-end;
         height: 100%;
@@ -15,7 +14,22 @@ $bg-img: url(../img/man_bg.png);
         background-repeat: no-repeat;
         background-position: -212px bottom;
     }
-   // &__text {
-
-  //  }
+    &__text {
+        border-left: 12px solid $mail-color;
+        padding-left: 16px;
+        max-width: 377px;
+        & h1 {
+            font-weight: 900;
+            font-size: 48px;
+            line-height: 58px;
+        }
+        & h2 {
+            font-size: 32px;
+            line-height: 38px;
+            font-weight: bold;
+            & span {
+                color: $mail-color;
+            }
+        }
+    }
 }

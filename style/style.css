@@ -30,12 +30,9 @@
   height: 764px;
 }
 
-.intro--wrap {
+.intro__bg {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.intro__bg {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,6 +49,28 @@
   background-image: url(../img/man_bg.png);
   background-repeat: no-repeat;
   background-position: -212px bottom;
+}
+
+.intro__text {
+  border-left: 12px solid #F16D7F;
+  padding-left: 16px;
+  max-width: 377px;
+}
+
+.intro__text h1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.intro__text h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: bold;
+}
+
+.intro__text h2 span {
+  color: #F16D7F;
 }
 
 * {
