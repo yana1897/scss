@@ -73,6 +73,10 @@
   color: #F16D7F;
 }
 
+.category {
+  background-color: #fff;
+}
+
 .category--wrap {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -100,6 +104,22 @@
   background-image: url("../img/accesories.jpg");
   background-repeat: no-repeat;
   background-size: auto;
+}
+
+.products {
+  background-color: #fff;
+}
+
+.features {
+  background-color: #222;
+}
+
+.feedback {
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #222;
 }
 
 * {
