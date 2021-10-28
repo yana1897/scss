@@ -21,7 +21,7 @@
   margin-right: 41px;
 }
 
-.header__right img:not(:last-child) {
+.header__right a:not(:last-child) {
   margin-right: 33px;
 }
 

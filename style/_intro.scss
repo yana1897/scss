@@ -15,7 +15,7 @@ $bg-img: url(../img/man_bg.png);
         background-position: -212px bottom;
     }
     &__text {
-        border-left: 12px solid $mail-color;
+        border-left: 12px solid $main-color;
         padding-left: 16px;
         max-width: 377px;
         & h1 {
@@ -28,7 +28,7 @@ $bg-img: url(../img/man_bg.png);
             line-height: 38px;
             font-weight: bold;
             & span {
-                color: $mail-color;
+                color: $main-color;
             }
         }
     }
