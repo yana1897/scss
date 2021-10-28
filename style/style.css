@@ -73,6 +73,35 @@
   color: #F16D7F;
 }
 
+.category--wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.category__woman {
+  background-image: url("../img/for_woman.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.category__men {
+  background-image: url("../img/for_men.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.category__kids {
+  background-image: url("../img/for_kids.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.category__accesories {
+  background-image: url("../img/accesories.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -84,8 +113,7 @@
 }
 
 .container {
-  max-width: 1160px;
-  padding: 0 10px;
+  width: 1140px;
   margin: 0 auto;
 }
 /*# sourceMappingURL=style.css.map */

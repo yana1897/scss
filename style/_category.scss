@@ -1,0 +1,29 @@
+
+
+
+.category {
+
+    &--wrap {
+        @include wrap;
+    }
+    &__woman {
+        background-image: url("../img/for_woman.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    &__men {
+        background-image: url("../img/for_men.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    &__kids {
+        background-image: url("../img/for_kids.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    &__accesories {
+        background-image: url("../img/accesories.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
