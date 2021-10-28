@@ -1,16 +1,16 @@
 $bg-color: #F1E4E6;
-$bg-img: url(../img/man_bg.png);
+$bg-img: url("../img/man_bg.png");
 
 
 .intro {
     background-color: $bg-color;
-    height: 764px;
+    min-height: 764px;
     &__bg {
         @include wrap;
-        @include position;
+        //@include position;
         justify-content: flex-end;
         height: 100%;
-        background-image: url(../img/man_bg.png);
+        background-image: $bg-img;
         background-repeat: no-repeat;
         background-position: -212px bottom;
     }

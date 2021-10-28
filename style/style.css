@@ -27,26 +27,17 @@
 
 .intro {
   background-color: #F1E4E6;
-  height: 764px;
+  min-height: 764px;
 }
 
 .intro__bg {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
   height: 100%;
-  background-image: url(../img/man_bg.png);
+  background-image: url("../img/man_bg.png");
   background-repeat: no-repeat;
   background-position: -212px bottom;
 }
@@ -117,6 +108,7 @@
 
 .feedback {
   background-color: #F4F4F4;
+  background-image: url("../img/feedback_bg.jpg");
 }
 
 .footer {
