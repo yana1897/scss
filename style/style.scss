@@ -19,8 +19,20 @@ $main-color:#F16D7F;
     font-style: normal;
     box-sizing: border-box;
 }
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 .container {
     width: 1140px;
     margin: 0 auto;
+}
+
+main {
+    flex-grow: 1;
 }
