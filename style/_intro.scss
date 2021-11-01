@@ -4,32 +4,33 @@ $bg-img: url("../img/man_bg.png");
 
 .intro {
     background-color: $bg-color;
-    min-height: 764px;
-    &__bg {
+    &__wrap {
+        height: 764px;
         @include wrap;
-        //@include position;
+        display: flex;
+        align-items: center;
         justify-content: flex-end;
-        height: 100%;
         background-image: $bg-img;
         background-repeat: no-repeat;
-        background-position: -212px bottom;
-    }
-    &__text {
-        border-left: 12px solid $main-color;
-        padding-left: 16px;
-        max-width: 377px;
-        & h1 {
-            font-weight: 900;
-            font-size: 48px;
-            line-height: 58px;
-        }
-        & h2 {
-            font-size: 32px;
-            line-height: 38px;
-            font-weight: bold;
-            & span {
+        background-position: -225px 0;
+        &__text {
+            border-left: 12px solid $main-color;
+            padding-left: 16px;
+            &__bold {
+                font-weight: 900;
+                font-size: 48px;
+                line-height: 58px;
+            }
+            &__decor {
                 color: $main-color;
             }
-        }
+            & h1 {
+                font-weight: bold; 
+                font-size: 32px;
+                line-height: 38px;
+                }
+           
+        
     }
+}
 }

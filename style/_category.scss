@@ -1,29 +1,99 @@
 
+@mixin size_little_category () {
+    width: 360px;
+    height: 260px;
+}
 
+@mixin pink__text() {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: $main-color;
+}
 
 .category {
 background-color: #fff;
+padding-top: 65px;
+padding-bottom: 96px;
     &--wrap {
+        display: flex;
         @include wrap;
     }
     &__woman {
+        @include size_little_category;
         background-image: url("../img/for_woman.jpg");
         background-repeat: no-repeat;
         background-size: auto;
+        @include center;
+        margin-right: 30px;
+        & p {
+            color: #FFFFFF;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            & span {
+                @include pink__text;
+            }
+        }
     }
     &__men {
+        @include size_little_category;
         background-image: url("../img/for_men.jpg");
         background-repeat: no-repeat;
         background-size: auto;
+        @include center;
+        margin-right: 30px;
+        & p {
+            color: #FFFFFF;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            & span {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                color: $main-color;
+            }
+        }
     }
     &__kids {
+        @include size_little_category;
         background-image: url("../img/for_kids.jpg");
         background-repeat: no-repeat;
         background-size: auto;
+        @include center;
+        & p {
+            color: #FFFFFF;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            & span {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                color: $main-color;
+            }
+        }
     }
     &__accesories {
+        width: 1140px;
+        height: 180px;
+        margin-top: 30px;
         background-image: url("../img/accesories.jpg");
         background-repeat: no-repeat;
         background-size: auto;
+        @include center;
+        & p {
+            color: #FFFFFF;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: center;
+            & span {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                color: $main-color;
+            }
+        }
     }
 }

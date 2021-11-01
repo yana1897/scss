@@ -1,5 +1,28 @@
 
 .features {
     background-color: #222224;
-    color: #fff;
+    padding: 103px 0;
+    &__wrap {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 360px;
+        & h3 {
+            font-size: 19.96px;
+            line-height: 24px;
+            color: #FBFBFB;
+            text-align: center;
+        }
+        & p {
+            color: #FBFBFB;
+            font-weight: 300;
+            font-size: 13.972px;
+            line-height: 17px;
+            text-align: center;
+        }
+    }
 }

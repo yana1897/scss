@@ -14,15 +14,13 @@ $main-color:#F16D7F;
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    font-style: normal;
     box-sizing: border-box;
 }
 html {
     height: 100%;
 }
 body {
+    font-family: 'Lato', sans-serif;
     height: 100%;
     display: flex;
     flex-direction: column;
