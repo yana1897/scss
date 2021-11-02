@@ -24,6 +24,7 @@ padding-bottom: 96px;
         @include center;
         background-repeat: no-repeat;
         background-size: auto;
+        background-color: #C4C4C4;
         &:nth-child(1) {
             background-image: url("../img/for_woman.jpg");
         }
@@ -42,16 +43,18 @@ padding-bottom: 96px;
             @include size_little_category;
         }
         & p {
-            color: #FFFFFF;
-            font-size: 16px;
-            line-height: 19px;
+            width: 100%;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            color: $main-color;
             text-align: center;
-            & span {
-                font-weight: bold;
-                font-size: 24px;
-                line-height: 29px;
-                color: $main-color;
-            }
+                &::first-line {
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    line-height: 19px;
+                    font-weight: normal;
+                }
         }
-        
+    }
 }

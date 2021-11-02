@@ -80,133 +80,61 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  gap: 30px;
 }
 
-.category__woman {
-  width: 360px;
-  height: 260px;
+.category__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-color: #C4C4C4;
+}
+
+.category__item:nth-child(1) {
   background-image: url("../img/for_woman.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 30px;
 }
 
-.category__woman p {
-  color: #FFFFFF;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-}
-
-.category__woman p span {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  color: #F16D7F;
-}
-
-.category__men {
-  width: 360px;
-  height: 260px;
+.category__item:nth-child(2) {
   background-image: url("../img/for_men.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 30px;
 }
 
-.category__men p {
-  color: #FFFFFF;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-}
-
-.category__men p span {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  color: #F16D7F;
-}
-
-.category__kids {
-  width: 360px;
-  height: 260px;
+.category__item:nth-child(3) {
   background-image: url("../img/for_kids.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.category__kids p {
-  color: #FFFFFF;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-}
-
-.category__kids p span {
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-  color: #F16D7F;
-}
-
-.category__accesories {
+.category__item:nth-child(4) {
   width: 1140px;
   height: 180px;
-  margin-top: 30px;
   background-image: url("../img/accesories.jpg");
-  background-repeat: no-repeat;
-  background-size: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.category__accesories p {
-  color: #FFFFFF;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
+.category__item:not(:last-child) {
+  width: 360px;
+  height: 260px;
 }
 
-.category__accesories p span {
+.category__item p {
+  width: 100%;
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
   color: #F16D7F;
+  text-align: center;
+}
+
+.category__item p::first-line {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: normal;
 }
 
 .products {
