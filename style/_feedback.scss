@@ -7,4 +7,22 @@
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 155px;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        @include wrap;
+        &__review {
+            width: 360px;
+            text-align: center;
+            & p {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 24px;
+                & span {
+                    font-style: italic;
+                }
+            }
+        }
+    }
+
 }

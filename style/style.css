@@ -198,6 +198,32 @@
   padding-bottom: 155px;
 }
 
+.feedback__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.feedback__wrap__review {
+  width: 360px;
+  text-align: center;
+}
+
+.feedback__wrap__review p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.feedback__wrap__review p span {
+  font-style: italic;
+}
+
 .footer {
   background-color: #222224;
   color: #fff;
