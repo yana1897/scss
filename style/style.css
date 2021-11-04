@@ -209,19 +209,40 @@
       flex-wrap: wrap;
 }
 
-.feedback__wrap__review {
+.feedback__review {
   width: 360px;
   text-align: center;
 }
 
-.feedback__wrap__review p {
+.feedback__review p {
+  margin-top: 30px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
 }
 
-.feedback__wrap__review p span {
+.feedback__review p span {
   font-style: italic;
+}
+
+.feedback__subscribe {
+  width: 560px;
+  text-align: center;
+  padding: 0 93px;
+}
+
+.feedback__subscribe h2 {
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #222224;
+}
+
+.feedback__subscribe h2::first-line {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 40px;
 }
 
 .footer {
