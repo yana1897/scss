@@ -3,6 +3,8 @@
 .footer {
     background-color: #222224;
     color: #FBFBFB;
+    display: flex;
+    @include wrap;
 
     &__wrap {
         display: flex;
