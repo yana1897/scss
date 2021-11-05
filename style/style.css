@@ -17,12 +17,46 @@
       flex-wrap: wrap;
 }
 
+.header__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .header__left a {
+  text-decoration: none;
+  color: transparent;
   margin-right: 41px;
 }
 
-.header__right a:not(:last-child) {
-  margin-right: 33px;
+.header__left button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 32px;
+}
+
+.header__right a {
+  text-decoration: none;
+  color: transparent;
+}
+
+.header__right button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .intro {
