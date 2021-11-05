@@ -175,6 +175,118 @@
   background-color: #fff;
 }
 
+.products__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.products__wrap header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+  margin-bottom: 48px;
+}
+
+.products__wrap header h2 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+}
+
+.products__wrap header p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9F9F9F;
+}
+
+.products__wrap__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
+.products__wrap__cards__item {
+  width: 360px;
+  background-color: #F8F8F8;
+}
+
+.products__wrap__cards__item__text {
+  width: 315px;
+  padding: 18px;
+}
+
+.products__wrap__cards__item__text h3 {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.products__wrap__cards__item__text p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #5D5D5D;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.products__wrap__cards__item__text h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F16D7F;
+}
+
+.products__wrap__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 48px;
+  margin-bottom: 95px;
+}
+
+.products__wrap__button a {
+  padding: 10px 20px;
+  border: 1px solid #F16D7F;
+  color: #F16D7F;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.products__wrap__button a:hover {
+  background-color: #F16D7F;
+  color: #FFF;
+}
+
 .features {
   background-color: #222224;
   padding: 103px 0;
