@@ -42,6 +42,10 @@ padding-bottom: 96px;
         &:not(:last-child) {
             @include size_little_category;
         }
+        & a {
+            text-decoration: none;
+            width: 100%;
+        }
         & p {
             width: 100%;
             font-weight: bold;

@@ -155,6 +155,11 @@
   height: 260px;
 }
 
+.category__item a {
+  text-decoration: none;
+  width: 100%;
+}
+
 .category__item p {
   width: 100%;
   font-weight: bold;
