@@ -34,3 +34,10 @@ body {
 main {
     flex-grow: 1;
 }
+.hidden {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: -99999px;
+    margin: -1px;
+}
