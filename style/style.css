@@ -425,32 +425,24 @@
   font-size: 14px;
   line-height: 17px;
   opacity: 0.67;
-  margin: 7px 64px 6px 0px;
-  padding-left: 22px;
 }
 
 .feedback__subscribe__form__field:-ms-input-placeholder {
   font-size: 14px;
   line-height: 17px;
   opacity: 0.67;
-  margin: 7px 64px 6px 0px;
-  padding-left: 22px;
 }
 
 .feedback__subscribe__form__field::-ms-input-placeholder {
   font-size: 14px;
   line-height: 17px;
   opacity: 0.67;
-  margin: 7px 64px 6px 0px;
-  padding-left: 22px;
 }
 
 .feedback__subscribe__form__field::placeholder {
   font-size: 14px;
   line-height: 17px;
   opacity: 0.67;
-  margin: 7px 64px 6px 0px;
-  padding-left: 22px;
 }
 
 .feedback__subscribe__form__button {
