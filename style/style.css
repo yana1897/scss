@@ -32,6 +32,14 @@
   margin-right: 41px;
 }
 
+.header__left a svg {
+  fill: #F8F8F8;
+}
+
+.header__left a svg:hover {
+  fill: #F16D7F;
+}
+
 .header__left button {
   background-color: transparent;
   border: none;
@@ -520,6 +528,16 @@
 .footer__wrap__social a:hover {
   color: #FFFFFF;
   background-color: #F16D7F;
+}
+
+.pagination__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 * {
