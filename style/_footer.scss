@@ -3,15 +3,14 @@
 .footer {
     background-color: #222224;
     color: #FBFBFB;
-    display: flex;
-    @include wrap;
 
     &__wrap {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       height: 79px;
         @include wrap;
-        height: 79px;
+        
         & p {
             font-weight: 400;
             font-size: 16px;
