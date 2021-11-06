@@ -13,8 +13,7 @@
 
 .category {
 background-color: #fff;
-padding-top: 65px;
-padding-bottom: 96px;
+padding: 65px 0;
     &--wrap {
         display: flex;
         @include wrap;

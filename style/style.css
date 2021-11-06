@@ -128,8 +128,7 @@
 
 .category {
   background-color: #fff;
-  padding-top: 65px;
-  padding-bottom: 96px;
+  padding: 65px 0;
 }
 
 .category--wrap {
@@ -202,6 +201,8 @@
 
 .products {
   background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 48px;
 }
 
 .products__wrap {
@@ -298,8 +299,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 48px;
-  margin-bottom: 95px;
+  margin: 48px 0;
 }
 
 .products__wrap__button a {
@@ -346,13 +346,18 @@
   width: 360px;
 }
 
+.features__item img {
+  height: 40px;
+  margin-bottom: 19px;
+  text-align: center;
+}
+
 .features__item h3 {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #FBFBFB;
   text-align: center;
-  margin-top: 19px;
 }
 
 .features__item p {
