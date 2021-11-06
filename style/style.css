@@ -32,18 +32,18 @@
   margin-right: 41px;
 }
 
-.header__left a svg {
-  fill: #F8F8F8;
-}
-
-.header__left a svg:hover {
-  fill: #F16D7F;
-}
-
 .header__left button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.header__left button svg {
+  fill: #F8F8F8;
+}
+
+.header__left button svg:hover {
+  fill: #F16D7F;
 }
 
 .header__right {
@@ -61,10 +61,26 @@
   color: transparent;
 }
 
+.header__right a svg {
+  fill: #F8F8F8;
+}
+
+.header__right a svg:hover {
+  fill: #F16D7F;
+}
+
 .header__right button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.header__right button svg {
+  fill: #F8F8F8;
+}
+
+.header__right button svg:hover {
+  fill: #F16D7F;
 }
 
 .intro {
