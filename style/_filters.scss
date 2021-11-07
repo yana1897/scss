@@ -1,0 +1,30 @@
+
+.filters {
+    padding-top: 20px;
+    padding-bottom: 64px;
+    &__wrap {
+        width: 750px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        @include wrap;
+    }
+}
+.filter {
+    & p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        color: #000000;
+    }
+}
+.sort {
+    display: flex;
+    justify-self: center;
+    gap: 30px;
+    & p {
+        font-size: 14px;
+        line-height: 17px;
+        color: #6F6E6E;
+    }
+}
