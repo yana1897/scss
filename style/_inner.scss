@@ -1,6 +1,6 @@
 .inner {
   background-color: #F8F3F4;
-  padding: 60px 0;
+  padding: 40px 0;
   &__wrap {
     display: flex;
     @include wrap;
@@ -34,27 +34,20 @@
     }
   }
   &__link {
-    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    transition: 0.2s;
+    &--current {
+      font-weight: bold;
+      color: #F16D7F;
+    }
+    &:hover {
+      text-decoration: underline; 
+      color: #F16D7F;
+    }
   }
-}
-
-
-.breadcrumbs-link {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 300;
-  font-size: 14px;
-  line-height: 17px;
-  color: #636363;
-  transition: 0.2s;
-}
-
-.breadcrumbs-link--current {
-  font-weight: bold;
-  color: #F16D7F;
-}
-
-.breadcrumbs-link[href]:hover {
-  text-decoration: underline;
-  color: #F16D7F;
 }

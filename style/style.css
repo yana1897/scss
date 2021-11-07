@@ -553,7 +553,7 @@
 
 .inner {
   background-color: #F8F3F4;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .inner__wrap {
@@ -601,7 +601,7 @@
   display: none;
 }
 
-.breadcrumbs-link {
+.breadcrumbs__link {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 300;
@@ -612,12 +612,12 @@
   transition: 0.2s;
 }
 
-.breadcrumbs-link--current {
+.breadcrumbs__link--current {
   font-weight: bold;
   color: #F16D7F;
 }
 
-.breadcrumbs-link[href]:hover {
+.breadcrumbs__link:hover {
   text-decoration: underline;
   color: #F16D7F;
 }
