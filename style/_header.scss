@@ -17,14 +17,48 @@ $bg-color: #222222;
         @include wrap;
     }
     &__left {
+        display: flex;
+        align-items: center;
         & a {
+            text-decoration: none;
+            color: transparent;
             margin-right: 41px;
+        }
+        & button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            & svg {
+                fill: #F8F8F8;
+                &:hover {
+                    fill: $main-color;
+                }
+            }
         }
     }
     &__right {
+        display: flex;
+        align-items: center;
+        gap: 32px;
         & a {
-            &:not(:last-child) {
-                margin-right: 33px;
+            text-decoration: none;
+            color: transparent;
+            & svg {
+                fill: #F8F8F8;
+                &:hover {
+                    fill: $main-color;
+                }
+            }
+        }
+        & button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            & svg {
+                fill: #F8F8F8;
+                &:hover {
+                    fill: $main-color;
+                }
             }
         }
     }

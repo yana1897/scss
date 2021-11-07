@@ -2,5 +2,39 @@
 
 .footer {
     background-color: #222224;
-    color: #fff;
+    color: #FBFBFB;
+
+    &__wrap {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       height: 79px;
+        @include wrap;
+        
+        & p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19.2px;
+        }
+        &__social {
+            display: flex;
+            justify-content: space-between;
+            width: 148px;
+            & a {
+                color: black;
+                background-color: #FFFFFF;
+                width: 32px;
+                height: 32px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                &:hover {
+                    color: #FFFFFF;
+                    background-color: $main-color;
+                }
+            }
+    }
+   
+    }
 }

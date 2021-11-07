@@ -13,87 +13,51 @@
 
 .category {
 background-color: #fff;
-padding-top: 65px;
-padding-bottom: 96px;
+padding: 65px 0;
     &--wrap {
         display: flex;
         @include wrap;
+        gap: 30px;
     }
-    &__woman {
-        @include size_little_category;
-        background-image: url("../img/for_woman.jpg");
+    &__item {
+        @include center;
         background-repeat: no-repeat;
         background-size: auto;
-        @include center;
-        margin-right: 30px;
-        & p {
-            color: #FFFFFF;
-            font-size: 16px;
-            line-height: 19px;
-            text-align: center;
-            & span {
-                @include pink__text;
-            }
+        background-color: #C4C4C4;
+        &:nth-child(1) {
+            background-image: url("../img/for_woman.jpg");
         }
-    }
-    &__men {
-        @include size_little_category;
-        background-image: url("../img/for_men.jpg");
-        background-repeat: no-repeat;
-        background-size: auto;
-        @include center;
-        margin-right: 30px;
-        & p {
-            color: #FFFFFF;
-            font-size: 16px;
-            line-height: 19px;
-            text-align: center;
-            & span {
-                font-weight: bold;
-                font-size: 24px;
-                line-height: 29px;
-                color: $main-color;
-            }
+        &:nth-child(2) {
+            background-image: url("../img/for_men.jpg");
         }
-    }
-    &__kids {
-        @include size_little_category;
-        background-image: url("../img/for_kids.jpg");
-        background-repeat: no-repeat;
-        background-size: auto;
-        @include center;
-        & p {
-            color: #FFFFFF;
-            font-size: 16px;
-            line-height: 19px;
-            text-align: center;
-            & span {
-                font-weight: bold;
-                font-size: 24px;
-                line-height: 29px;
-                color: $main-color;
-            }
+        &:nth-child(3) {
+            background-image: url("../img/for_kids.jpg");
         }
-    }
-    &__accesories {
-        width: 1140px;
-        height: 180px;
-        margin-top: 30px;
-        background-image: url("../img/accesories.jpg");
-        background-repeat: no-repeat;
-        background-size: auto;
-        @include center;
+        &:nth-child(4) {
+            width: 1140px;
+            height: 180px;
+            background-image: url("../img/accesories.jpg");
+        }
+        &:not(:last-child) {
+            @include size_little_category;
+        }
+        & a {
+            text-decoration: none;
+            width: 100%;
+        }
         & p {
-            color: #FFFFFF;
-            font-size: 16px;
-            line-height: 19px;
+            width: 100%;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            color: $main-color;
             text-align: center;
-            & span {
-                font-weight: bold;
-                font-size: 24px;
-                line-height: 29px;
-                color: $main-color;
-            }
+                &::first-line {
+                    color: #FFFFFF;
+                    font-size: 16px;
+                    line-height: 19px;
+                    font-weight: normal;
+                }
         }
     }
 }

@@ -4,10 +4,12 @@ $main-color:#F16D7F;
 @import '_intro.scss';
 @import '_mixins.scss';
 @import '_category.scss';
+@import '_filters.scss';
 @import '_products.scss';
 @import '_features.scss';
 @import '_feedback.scss';
 @import '_footer.scss';
+@import '_inner.scss';
 
 
 
@@ -33,4 +35,11 @@ body {
 
 main {
     flex-grow: 1;
+}
+.hidden {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: -99999px;
+    margin: -1px;
 }
