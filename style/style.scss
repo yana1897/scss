@@ -1,4 +1,6 @@
 $main-color:#F16D7F;
+$width-dekstrop: 1140px;
+$shadow: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
 
 @import '_header.scss';
 @import '_intro.scss';
@@ -29,7 +31,7 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: $width-dekstrop;
     margin: 0 auto;
 }
 

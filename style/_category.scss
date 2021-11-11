@@ -34,7 +34,7 @@ padding: 65px 0;
             background-image: url("../img/for_kids.jpg");
         }
         &:nth-child(4) {
-            width: 1140px;
+            width: $width-dekstrop;
             height: 180px;
             background-image: url("../img/accesories.jpg");
         }
