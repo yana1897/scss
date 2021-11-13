@@ -1,0 +1,41 @@
+
+.pagination {
+    padding: 48px 0;
+    &__wrap {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__list {
+        padding: 0;
+        display: flex;
+        gap: 24px;
+        list-style-type: none;
+        border: 1px solid #EBEBEB;
+        border-radius: 5px;
+        padding: 15px;
+    }
+
+    &__button {
+        color: #C4C4C4;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        &--active {
+            color: $main-color;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 19px;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+        }
+    }
+    &__separator {
+        color: #C4C4C4;
+        margin: 0 -24px;
+    }
+}
