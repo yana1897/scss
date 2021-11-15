@@ -1,21 +1,20 @@
-$main-color:#F16D7F;
+$main-color: #f16d7f;
 $width-dekstrop: 1140px;
 $shadow: drop-shadow(17px 19px 24px rgba(0, 0, 0, 0.13));
 
-@import '_header.scss';
-@import '_intro.scss';
-@import '_mixins.scss';
-@import '_category.scss';
-@import '_filters.scss';
-@import '_products.scss';
-@import '_pagination.scss';
-@import '_features.scss';
-@import '_feedback.scss';
-@import '_footer.scss';
-@import '_inner.scss';
-@import '_slider.scss';
-
-
+@import "_header.scss";
+@import "_intro.scss";
+@import "_mixins.scss";
+@import "_category.scss";
+@import "_filters.scss";
+@import "_products.scss";
+@import "_pagination.scss";
+@import "_features.scss";
+@import "_feedback.scss";
+@import "_footer.scss";
+@import "_inner.scss";
+@import "_slider.scss";
+@import "_about";
 
 * {
     margin: 0;
@@ -26,7 +25,7 @@ html {
     height: 100%;
 }
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     height: 100%;
     display: flex;
     flex-direction: column;
