@@ -712,6 +712,39 @@
   color: #F16D7F;
 }
 
+.slider {
+  background-color: #F7F7F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.slider button {
+  border: none;
+  padding: 12px 17px;
+  cursor: pointer;
+  background-color: rgba(42, 42, 42, 0.15);
+}
+
+.slider__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;

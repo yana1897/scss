@@ -1,0 +1,20 @@
+
+.slider {
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    & button {
+        border: none;
+        padding: 12px 17px;
+        cursor: pointer;
+        background-color: rgba(42, 42, 42, 0.15);
+    }
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
